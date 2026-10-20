@@ -39,10 +39,23 @@ Some custom application icons are from other GPL sources.
 		http://www.jesusda.com/
 
 ####################
-48x48 png:         #
+UNOFFICIAL UPDATES #
 ####################
-The 48x48 png icons were added by Petar P. <slackalaxy at gmail dot com>
-No modifications to the theme itself.
+Maintained by Petar P. <slackalaxy at gmail dot com>, with the help of AI
+(Claude, by Anthropic).
+
+* The 48x48 png icons.
+* Aliases so that Xfce's Settings Manager, panel plugins and applications
+  show GNOME-Colors / GNOME icons instead of the hicolor ones.
+* A few new icons (sharedlib, folder-bookmarks, R file types).
+See ChangeLog for the full list. No other modifications to the theme itself.
+
+Icons copied unchanged from gnome-icon-theme 3.12 (About Me, Mouse,
+Accessibility, Power Manager, battery states, Clipman, document and web
+page icons for the R file types, ...) keep their own licence
+(LGPL 3 / CC-BY-SA 3.0), see [COPYING.gnome-icon-theme](./COPYING.gnome-icon-theme).
+The R icons are original; the letter R is drawn from the free DejaVu Sans
+Bold font.
 
 ####################
 SPECIAL THANKS TO: #

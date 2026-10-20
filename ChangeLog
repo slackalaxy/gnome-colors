@@ -1,5 +1,123 @@
+6.0.0 (2026-10-20)
+
+UPDATES (UNOFFICIAL)
+Done by Petar P. with the help of Claude (Anthropic).
+No existing GNOME-Colors artwork was changed. "name -> icon" means that the
+new name now shows that existing icon (a link, or a copy from the original
+gnome-icon-theme 3.12 where GNOME-Colors has no such icon).
+
+NEW ARTWORK
+  application-x-sharedlib     puzzle piece on a blank page
+  folder-bookmarks            folder with a white bookmark ribbon (all variants)
+  text-x-r-source             page with a blue R
+  application-x-r-project     a blue R
+
+R FILE TYPES (plain gnome icons)
+  application-x-r-data -> package-x-generic
+  text-x-r-doc -> x-office-document
+  text-x-r-html -> text-html
+  text-x-r-presentation -> x-office-presentation
+  text-x-r-markdown, text-x-quarto-markdown, text-x-r-sweave -> text-x-generic
+
+LINKS TO GNOME-COLORS ICONS
+  org.xfce.settings.appearance -> preferences-desktop-theme
+  org.xfce.xfdesktop -> preferences-desktop-wallpaper
+  org.xfce.settings.display -> video-display
+  org.xfce.settings.keyboard -> preferences-desktop-keyboard
+  org.xfce.settings.default-applications -> preferences-desktop-default-applications
+  org.xfce.session -> session-properties
+  org.xfce.xfwm4 -> preferences-system-windows
+  org.xfce.xfwm4-tweaks -> preferences-system-windows
+  org.xfce.workspaces -> workspace-switcher
+  org.xfce.ScreenSaver -> preferences-desktop-screensaver
+  org.xfce.volman -> drive-removable-media
+  org.xfce.terminal-settings -> utilities-terminal
+  org.xfce.settings.editor -> gnome-settings
+  org.pulseaudio.pavucontrol -> gnome-volume-control
+  blueman-device -> bluetooth
+  org.xfce.about -> help-about
+  org.xfce.panel -> gnome-panel-window-list
+  org.xfce.PanelProfiles -> gnome-panel-window-list
+  org.xfce.notification -> gnome-panel-notification-area
+  org.xfce.settings.color -> gnome-colors
+  org.xfce.settings.manager -> gnome-control-center
+  org.gnome.FileRoller -> package-x-generic
+  org.gnome.FileRoller.Devel -> package-x-generic
+  org.xfce.garcon -> gnome-applications
+  folder-projects -> folder-documents
+  stock_xfburn-format-dvdrw -> gnome-dev-disc-dvdrw
+  stock_xfburn-audio-copy -> gnome-dev-cdrom-audio
+  application-x-firmware -> media-flash
+  inode-symlink -> gnome-dev-symlink
+  org.xfce.thunar -> system-file-manager
+  org.xfce.filemanager -> system-file-manager
+  org.xfce.terminal -> utilities-terminal
+  org.xfce.terminalemulator -> utilities-terminal
+  org.xfce.mousepad -> accessories-text-editor
+  org.xfce.taskmanager -> utilities-system-monitor
+  org.xfce.screenshooter -> applets-screenshooter
+  org.xfce.ristretto -> image-viewer
+  org.xfce.mailreader -> internet-mail
+  org.xfce.parole -> multimedia-player
+  org.xfce.appfinder -> system-search
+  org.xfce.catfish -> gnome-searchtool
+  org.xfce.gigolo -> network-server
+  org.xfce.panel.clock -> gnome-panel-clock
+  org.xfce.panel.windowmenu -> gnome-panel-window-menu
+  org.xfce.panel.tasklist -> gnome-panel-window-list
+  org.xfce.panel.systray -> gnome-panel-notification-area
+  org.xfce.panel.pager -> workspace-switcher
+  org.xfce.panel.showdesktop -> user-desktop
+  org.xfce.panel.actions -> system-shutdown
+  org.xfce.panel.applicationsmenu -> start-here
+  org.xfce.panel.whiskermenu -> start-here
+  org.xfce.panel.directorymenu -> folder
+  org.xfce.panel.cpugraph -> utilities-system-monitor
+  org.xfce.panel.systemload -> utilities-system-monitor
+  org.xfce.panel.netload -> network-transmit-receive
+  org.xfce.panel.xkb -> preferences-desktop-keyboard
+  xfce4-pulseaudio-plugin -> audio-volume-high
+  xfce4-fsguard-plugin -> drive-harddisk
+  xfce4-fsguard-plugin-warning -> dialog-warning
+  xfce4-fsguard-plugin-urgent -> dialog-error
+  xfce4-cpufreq-plugin -> utilities-system-monitor
+  xfce-mount -> drive-removable-media
+  xfwm4-default -> preferences-system-windows
+
+COPIED FROM THE ORIGINAL GNOME ICONS (not in GNOME-Colors)
+  mugshot -> user-info (or avatar-default)
+  org.xfce.tumbler -> image-x-generic
+  org.xfce.settings.accessibility -> preferences-desktop-accessibility
+  org.xfce.settings.mouse -> input-mouse
+  org.xfce.powermanager -> gnome-dev-battery (or battery)
+  org.xfce.Dictionary -> accessories-dictionary
+  org.xfce.webbrowser -> web-browser
+  org.xfce.panel.launcher -> system-run
+  org.xfce.panel.genericslider -> multimedia-volume-control
+  org.xfce.panel.weather -> weather-few-clouds
+  xfce4-calculator-plugin -> accessories-calculator
+  xfce4-battery-plugin -> battery-good
+  xfce4-battery-critical -> battery-caution
+  xfce4-battery-critical-charging -> battery-caution-charging
+  xfce4-battery-low -> battery-low
+  xfce4-battery-low-charging -> battery-low-charging
+  xfce4-battery-ok -> battery-good
+  xfce4-battery-ok-charging -> battery-good-charging
+  xfce4-battery-full -> battery-full
+  xfce4-battery-full-charging -> battery-full-charging
+  xfce4-battery-missing -> battery-missing
+  xfce4-timer-plugin -> appointment-soon
+  xfce4-stopwatch-plugin -> appointment-soon
+  xfce4-clipman-plugin -> edit-paste
+  xfce4-clipman -> edit-paste
+  clipman-symbolic -> edit-paste
+  application-x-generic -> text-x-preview
+  x-office-addressbook -> x-office-address-book
+
 5.5.2 (2021-08-11)
-* Add 48x48 PNG icons
+* Add 48x48 PNG icons.
+
+--- Original ChangeLog below ---
 
 5.5.1 (2009-10-28)
 * Add icons for Empathy.
